@@ -1,0 +1,50 @@
+form{
+    display: column;
+}
+.name, .phone, .correo  {
+    display: flex;
+    flex-wrap: column;
+    padding: 2% 0 2% 0;
+}
+
+span{
+    display: none;
+    color:red;
+    font-size: 10px;
+    padding: 2% 0 2% 0%;
+}
+
+#correctMail, #correctName #correctPhone {
+    display: none;
+    color:green;
+    font-size: 10px;
+}
+
+input {
+    width: 60%;
+    height: 20px;
+    background: #c4c4c4;
+}
+
+#button-s{
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    font: #373867;
+    background-color: #61C77E;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2% 0 2% 0;
+}
+
+.button-r{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #373867;
+    background-color: #fff;
+    text-align: center;
+    margin: 2% 0 2% 0;
+}
+
